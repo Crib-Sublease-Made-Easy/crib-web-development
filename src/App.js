@@ -1,10 +1,12 @@
 import MessagePage from './pages/Message';
-import FilterScreen1 from './pages/Filter';
+import FilterScreen from './pages/Filter';
+import MapScreen from './pages/Map';
 
 function App() {
   return (
     <div>
-      <FilterScreen1/>
+      <MapScreen/>
+      <FilterScreen/>
       <MessagePage/>
     </div>
   )

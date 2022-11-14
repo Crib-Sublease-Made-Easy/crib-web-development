@@ -13,7 +13,7 @@ function MessagePage() {
           <p className='font-oswald font-bold text-6xl'> Found the <span className='text-[#8559E3]'> one</span>?</p>
         </h1>
         <p className='font-roboto pt-10 pr-10 text-left text-3xl text-soft'>
-          Message the tenant with our in-house messaging tool to ask for more information!
+          Message the tenant with our in-house messaging tool to ask for more information
         </p>
       </div>
       <img src={msg} className='pl-20 rounded-lg drop-shadow-2xl hover:drop-shadow-sm'>

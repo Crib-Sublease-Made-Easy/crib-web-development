@@ -1,6 +1,6 @@
 import filter from '../assets/filterScreen.svg';
 
-function FilterScreen1() {
+function FilterScreen() {
   return (
     <div className='ml-6 flex flex-col lg:flex-row lg:p-20'>
       <img className='pl-4 md:pt-20 lg:pl-60 md:pb-20' src={filter}>
@@ -17,4 +17,4 @@ function FilterScreen1() {
   )
 }
 
-export default FilterScreen1;
+export default FilterScreen;
