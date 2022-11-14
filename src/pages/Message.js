@@ -16,7 +16,7 @@ function MessagePage() {
           Message the tenant with our in-house messaging tool to ask for more information
         </p>
       </div>
-      <img src={msg} className='pl-20 rounded-lg drop-shadow-2xl hover:drop-shadow-sm'>
+      <img alt='msgSS' src={msg} className='pl-20 rounded-lg drop-shadow-2xl hover:drop-shadow-sm'>
       </img>
     </div>
   )

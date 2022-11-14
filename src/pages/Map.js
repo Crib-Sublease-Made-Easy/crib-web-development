@@ -7,7 +7,7 @@ function MapScreen() {
     {/* The color is  #8559E3 purple, black, white*/}
     <div className='w-50 p-10'>
       <div className='bg-white drop-shadow-xl hover:drop-shadow-md rounded-xl max-w-md p-4'>
-        <img className='inline h-10 pr-3 hover:animate-wiggle' src={search}>
+        <img alt='searchIcon' className='inline h-10 pr-3 hover:animate-wiggle' src={search}>
         </img>
         <h1 className='text-xl inline'>
           Enter your location...
@@ -22,7 +22,7 @@ function MapScreen() {
       </p>
       </div>
     </div>
-    <img src={map} className='pl-20 rounded-lg'>
+    <img alt='mapIcon' src={map} className='pl-20 rounded-lg'>
     </img>
   </div>
   )

@@ -3,7 +3,7 @@ import filter from '../assets/filterScreen.svg';
 function FilterScreen() {
   return (
     <div className='ml-6 flex flex-col lg:flex-row lg:p-20'>
-      <img className='pl-4 md:pt-20 lg:pl-60 md:pb-20' src={filter}>
+      <img alt='filterpic' className='pl-4 md:pt-20 lg:pl-60 md:pb-20' src={filter}>
       </img>
       <div className='w-50 p-4 lg:pt-60 lg:pl-60 lg:pr-40'>
         <h1 className='border-box w-90 text-left'>
