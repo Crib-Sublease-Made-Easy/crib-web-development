@@ -3,6 +3,7 @@ import FilterScreen from './pages/Filter';
 import MapScreen from './pages/Map';
 import Landing from "./pages/Landing";
 import Features from "./pages/Features";
+import PostProperties from "./pages/PostProperties";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <MapScreen/>
       <FilterScreen/>
       <MessagePage/>
+      <PostProperties />
     </div>
   )
 }
