@@ -4,7 +4,7 @@ import search from '../assets/search-48.png'
 
 function MapScreen() {
   return (
-    <div className='bg-white flex flex-row gap-6 md:mx-60 mt-20'>
+    <div className='bg-white flex flex-col md:flex-row gap-x-60 justify-center content-center mt-20 p-6'>
     {/* The color is  #8559E3 purple, black, white*/}
     <div className='w-96 p-0'>
       <div className='border-box w-80 h-15 bg-white drop-shadow-xl rounded-lg p-4'>
@@ -23,7 +23,7 @@ function MapScreen() {
       </p>
       </div>
     </div>
-    <img alt='mapIcon' src={map} className='ml-20 pl-20 rounded-lg'>
+    <img alt='mapIcon' src={map} className='rounded-lg'>
     </img>
   </div>
   )
