@@ -10,7 +10,7 @@ function MapScreen() {
       <div className='border-box w-80 h-15 bg-white drop-shadow-xl rounded-lg p-4'>
         <img alt='searchIcon' className='inline h-9 pr-3 hover:animate-wiggle' src={search}>
         </img>
-        <h1 className='text-xl  inline'>
+        <h1 className='text-xl inline'>
           Enter your location...
           </h1>
       </div>
