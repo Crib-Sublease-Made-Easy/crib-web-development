@@ -4,7 +4,7 @@ import Screen from '../assets/post-properties-screen.png';
 
 const PostProperties = () => {
   return (
-      <div className="bg-white flex flex-col justify-center items-center md:px-80 mb-80">
+      <div className="bg-white flex flex-col justify-center items-center md:px-80 mb-80 mt-80">
         <div className="bg-brand p-20 rounded-2xl flex relative pr-72 overflow-hidden">
           <div>
             <h1 className="font-oswald font-bold text-6xl text-white">
