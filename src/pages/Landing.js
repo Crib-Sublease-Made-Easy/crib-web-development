@@ -46,8 +46,8 @@ const Landing = () => {
               </button>
             </div>
           </div>
-          <div className="basis-2/5 flex flex-row justify-center">
-            <img src={Phone} alt="Phone" />
+          <div className="basis-2/5 flex flex-row justify-center items-center">
+            <img src={Phone} alt="Phone" className="h-[70vh]" />
           </div>
         </div>
       </div>
