@@ -5,9 +5,9 @@ import Brand from '../assets/brand.png';
 
 const Landing = () => {
   return (
-      <div className="bg-brand flex flex-col justify-center md:px-80 h-fit">
-        <div className="absolute top-0 left-0 md:px-80 md:py-8 w-full">
-          <div className="flex flex-row text-white gap-16 text-2xl font-medium items-center">
+      <div className="bg-brand flex flex-col justify-center px-10 md:px-20 2xl:px-80 h-fit">
+        <div className="absolute top-0 left-0 px-4 2xl:px-80 mt-4 w-full">
+          <div className="flex flex-row text-white gap-16 text-lg font-medium items-center">
             <img src={Brand} alt="Crib" className="mr-auto h-16" />
             <a href="#">About</a>
             <a href="#">Features</a>
@@ -16,32 +16,32 @@ const Landing = () => {
         </div>
         <div className="flex flex-row gap-12 my-36">
           <div className="basis-3/5 flex flex-col justify-center">
-            <h1 className="font-oswald font-bold text-6xl text-white">
+            <h1 className="font-oswald font-bold text-5xl 2xl:text-6xl text-white">
               List and find subleases in a few clicks
             </h1>
-            <p className="font-roboto pt-10 pr-10 text-left text-3xl text-white">
+            <p className="font-roboto pt-10 pr-10 text-left text-lg 2xl:text-2xl text-white">
               Crib is a marketplace that connects tenants and subtenants.
               We make finding and listing subleases easier than ever!
             </p>
-            <div className="flex flex-row gap-12 pt-14">
+            <div className="flex flex-row gap-2 lg:gap-10 pt-14">
               <button
                   className={`
-              bg-white text-4xl px-8 py-4 
-              flex flex-row gap-4 items-center 
+              bg-white text-2xl 2xl:text-4xl px-4 lg:px-8 py-2 lg:py-4 
+              flex flex-row gap-2 lg:gap-4 items-center 
               rounded-lg drop-shadow-xl hover:drop-shadow-md
             `}
               >
-                <img src={MagnifyingGlass} alt="Find" />
+                <img src={MagnifyingGlass} alt="Find" className="w-7 lg:w-10" />
                 Find
               </button>
               <button
                   className={`
-              bg-white text-4xl px-8 py-4 
-              flex flex-row gap-4 items-center 
+              bg-white text-2xl 2xl:text-4xl px-4 lg:px-8 py-2 lg:py-4 
+              flex flex-row gap-2 lg:gap-4 items-center 
               rounded-lg drop-shadow-xl hover:drop-shadow-md
             `}
               >
-                <img src={House} alt="List" />
+                <img src={House} alt="List" className="w-7 lg:w-10" />
                 List
               </button>
             </div>

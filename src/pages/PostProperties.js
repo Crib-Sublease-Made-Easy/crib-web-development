@@ -4,13 +4,13 @@ import Screen from '../assets/post-properties-screen.png';
 
 const PostProperties = () => {
   return (
-      <div className="bg-white flex flex-col justify-center items-center md:px-80 mb-80">
+      <div className="bg-white flex flex-col justify-center items-center px-10 md:px-20 2xl:px-80 my-80">
         <div className="bg-brand p-20 rounded-2xl flex relative pr-72 overflow-hidden">
           <div>
-            <h1 className="font-oswald font-bold text-6xl text-white">
+            <h1 className="font-oswald font-bold text-5xl 2xl:text-6xl text-white">
               Sublease just as easy
             </h1>
-              <p className="font-roboto pt-10 pr-10 text-2xl text-white">
+              <p className="font-roboto pt-10 pr-10 text-lg 2xl:text-2xl text-white">
                 Sublease your property on Crib with a few clicks
               </p>
               <button className="bg-white rounded-xl px-4 py-6 font-roboto text-xl flex items-center gap-4 font-bold mt-12">
