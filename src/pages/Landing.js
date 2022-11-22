@@ -5,7 +5,7 @@ import Brand from '../assets/brand.png';
 
 const Landing = () => {
   return (
-      <div className="bg-brand flex flex-col justify-center md:px-80 h-screen">
+      <div className="bg-brand flex flex-col justify-center md:px-80 h-fit">
         <div className="absolute top-0 left-0 md:px-80 md:py-8 w-full">
           <div className="flex flex-row text-white gap-16 text-2xl font-medium items-center">
             <img src={Brand} alt="Crib" className="mr-auto h-16" />
@@ -14,7 +14,7 @@ const Landing = () => {
             <a href="#">Contact Us</a>
           </div>
         </div>
-        <div className="flex flex-row gap-12">
+        <div className="flex flex-row gap-12 my-36">
           <div className="basis-3/5 flex flex-col justify-center">
             <h1 className="font-oswald font-bold text-6xl text-white">
               List and find subleases in a few clicks
