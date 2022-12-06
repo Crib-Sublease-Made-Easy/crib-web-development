@@ -15,7 +15,7 @@ const buttons = [
 
 const Landing = () => {
   return (
-      <section className="bg-brand text-white snap-center">
+      <section className="bg-brand text-white snap-center mt-40">
         <div className="flex flex-row gap-12">
           <div className="flex flex-col justify-center gap-8">
             <h1 className="font-bold text-6xl">
