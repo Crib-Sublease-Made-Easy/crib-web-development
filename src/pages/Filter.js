@@ -4,7 +4,7 @@ const Filter = () => {
   return (
       <section className="bg-brand text-white snap-center">
         <div className="flex flex-row gap-12">
-          <div className="w-10/12 ml-auto flex justify-center">
+          <div className="w-5/12 flex justify-end">
             <img src={FilterScreen} alt="Filter Screen" />
           </div>
           <div className="flex flex-col justify-center gap-8">
