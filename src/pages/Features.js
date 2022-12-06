@@ -23,29 +23,30 @@ const Features = () => {
   ]
 
   return (
-      <div className="bg-white flex flex-col justify-center items-center px-10 md:px-20 2xl:px-80 my-40 lg:my-80">
-        <h1 className="font-oswald font-bold text-5xl 2xl:text-6xl">
+      <section className="bg-brand snap-center text-white">
+        <h1 className="font-bold text-6xl text-center">
           Finding a sublease should be easy
         </h1>
-        <h4 className="font-roboto pt-10 pr-10 text-2xl text-brand">
+        <h4 className="text-2xl mt-6 text-center">
           We are here to make your life easier!
         </h4>
-        <div className="grid grid-cols-3 w-full justify-items-center gap-32 mt-16">
+        <div className="grid grid-cols-3 justify-items-center gap-4 mt-16">
           {features.map(feature => (
-              <div className="flex flex-col items-center gap-2 lg:gap-4 2xl:gap-8">
+              <div className="flex flex-col items-center">
                 <button className={`
-                  w-24 h-24 bg-white 
+                  bg-white p-6 rounded-lg
                   flex items-center justify-center 
-                  rounded-lg shadow-brand shadow-2xl hover:shadow-brand hover:shadow-xl
+                  shadow-lg hover:shadow-2xl
+                  transition ease-in-out hover:-translate-y-1 duration-300
                 `}>
                   <img src={feature.icon} alt={feature.title} />
                 </button>
-                <h5 className="font-roboto text-2xl 2xl:text-3xl font-bold w-full text-center mt-8">{feature.title}</h5>
-                <p className="font-roboto text-lg 2xl:text-2xl w-full text-center">{feature.text}</p>
+                <h5 className="text-3xl font-bold mt-4">{feature.title}</h5>
+                <p className="text-xl">{feature.text}</p>
               </div>
           ))}
         </div>
-      </div>
+      </section>
   );
 }
 

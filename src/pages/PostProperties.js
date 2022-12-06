@@ -1,26 +1,32 @@
-import House from '../assets/house-crib.png';
-import Screen from '../assets/post-properties-screen.png';
+import HouseIcon from '../assets/house-brand-icon.svg';
+import PropertyTypeScreen from '../assets/post-properties-screen.png';
 
 
 const PostProperties = () => {
   return (
-      <div className="bg-white flex flex-col justify-center items-center px-10 md:px-20 2xl:px-80 my-80">
-        <div className="bg-brand p-20 rounded-2xl flex relative pr-72 overflow-hidden">
-          <div>
-            <h1 className="font-oswald font-bold text-5xl 2xl:text-6xl text-white">
+      <section className="bg-brand snap-center flex flex-col justify-center items-center px-10">
+        <div className="bg-white rounded-2xl flex relative py-16 lg:py-24 xl:py-32 pl-10 xl:pl-20 pr-80 overflow-hidden">
+          <div className="flex flex-col justify-center gap-8">
+            <h1 className="font-bold text-5xl">
               Sublease just as easy
             </h1>
-              <p className="font-roboto pt-10 pr-10 text-lg 2xl:text-2xl text-white">
+              <p className="text-2xl">
                 Sublease your property on Crib with a few clicks
               </p>
-              <button className="bg-white rounded-xl px-4 py-6 font-roboto text-xl flex items-center gap-4 font-bold mt-12">
-                <img src={House} alt="Crib sublease count" className="h-10" />
-                <p><span className="text-brand">157+</span> subleases already on Crib</p>
+              <button className={`
+                  bg-black px-8 py-4 rounded-xl
+                  flex gap-4 items-center
+                  text-xl font-light text-white
+                  shadow-lg hover:shadow-2xl
+                  transition ease-in-out hover:-translate-y-1 duration-300
+              `}>
+                <img src={HouseIcon} alt="Crib sublease count" className="h-8" />
+                <p><span className="text-brand font-bold text-2xl">157+</span> subleases already on Crib</p>
               </button>
           </div>
-          <img src={Screen} alt="Post properties" className="absolute right-0 bottom-0 w-60" />
+          <img src={PropertyTypeScreen} alt="Post properties" className="absolute right-0 bottom-0 w-60" />
         </div>
-      </div>
+      </section>
   );
 }
 

@@ -1,20 +1,26 @@
-import filter from '../assets/filterScreen.svg';
+import FilterScreen from "../assets/filter-screen.png";
 
-function FilterScreen() {
+const Filter = () => {
   return (
-    <div className='bg-white flex flex-col md:flex-row gap-x-80 justify-center content-center mt-80 p-6'>
-      <img alt='filterpic' className='' src={filter}>
-      </img>
-      <div className='w-96 pt-2'>
-        <h1 className='border-box w-90 text-left'>
-          <p className='font-oswald font-bold text-6xl'> <span className='text-[#8559E3]'> Filtered</span> to your needs</p>
-        </h1>
-        <p className='font-roboto p-0 lg:pt-10 lg:pr-10 text-left text-2xl text-soft'>
-          Filter search results to find the perfect sublease for you! we offer more than 10+ filters to find your desired <div className='inline text-[#8559E3] font-semibold'>crib</div>
-        </p>
-      </div>
-    </div>
-  )
-}
+      <section className="bg-brand text-white snap-center">
+        <div className="flex flex-row gap-12">
+          <div className="w-10/12 ml-auto flex justify-center">
+            <img src={FilterScreen} alt="Filter Screen" />
+          </div>
+          <div className="flex flex-col justify-center gap-8">
+            <div className="flex flex-col justify-center gap-8">
+              <h1 className="font-bold text-6xl">
+                Filtered to your needs
+              </h1>
+              <p className="text-2xl">
+                Filter search results to find the perfect sublease for you! we offer more than 10+ filters to find
+                your desired crib
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+  );
+};
 
-export default FilterScreen;
+export default Filter;

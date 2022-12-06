@@ -1,0 +1,8 @@
+.app-vp {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.app-vp::-webkit-scrollbar {
+    display: none;
+}
