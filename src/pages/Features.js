@@ -36,7 +36,13 @@ const Features = () => {
           <h4 className="text-xl md:text-2xl mt-3 md:mt-6 text-center">
             We are here to make your life easier!
           </h4>
-          <div className="grid grid-rows-3 md:grid-cols-3 justify-items-center gap-5 md:gap-10 md:gap-20 mt-8 md:mt-16">
+          <div className={`
+              grid 
+              grid-rows-3 md:grid-rows-none grid-cols-none md:grid-cols-3 
+              justify-items-center 
+              gap-5 md:gap-10 md:gap-20 
+              mt-8 md:mt-16
+          `}>
             {features.map(feature => (
                 <div className="flex flex-col items-center">
                   <button className={`
