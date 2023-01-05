@@ -15,8 +15,13 @@ const buttons = [
 
 const Landing = () => {
   return (
-      <section className="bg-brand text-white snap-center mt-40">
-        <div className="flex flex-row gap-12">
+      <section className={`
+          bg-brand text-white 
+          px-4 sm:px-8 md:px-16 lg:px-32 xl:px-64 
+          h-screen 
+          flex items-center justify-center
+      `}>
+        <div className="flex gap-12 justify-center">
           <div className="flex flex-col justify-center gap-8">
             <h1 className="font-bold text-6xl">
               List and find subleases in a few clicks
@@ -40,8 +45,8 @@ const Landing = () => {
               ))}
             </div>
           </div>
-          <div className="w-10/12 ml-auto flex justify-center">
-            <img src={LandingScreen} alt="Landing Screen" />
+          <div className="w-10/12 max-h-[75vh] ml-auto flex justify-center">
+            <img src={LandingScreen} alt="Landing Screen" className="max-w-full max-h-full object-contain" />
           </div>
         </div>
       </section>

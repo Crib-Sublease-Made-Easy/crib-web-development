@@ -3,7 +3,11 @@ import LinkedinLogo from '../assets/linkedin-logo.png';
 
 const Footer = () => {
   return (
-      <section className="bg-brand snap-end flex justify-end gap-12 text-white pb-10">
+      <section className={`
+          bg-black text-white 
+          px-8 py-10
+          flex justify-end gap-12 
+      `}>
         <div className="flex flex-col gap-2">
           <h2 className="font-semibold">Legal</h2>
           <a href="#">Terms and services</a>

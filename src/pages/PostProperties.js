@@ -4,7 +4,11 @@ import PropertyTypeScreen from '../assets/post-properties-screen.png';
 
 const PostProperties = () => {
   return (
-      <section className="bg-brand snap-center flex flex-col justify-center items-center px-10">
+      <section className={`
+          bg-brand px-4 sm:px-8 md:px-16 lg:px-32 xl:px-64 
+          h-screen 
+          flex items-center justify-center
+      `}>
         <div className="bg-white rounded-2xl flex relative py-16 lg:py-24 xl:py-32 pl-10 xl:pl-20 pr-80 overflow-hidden">
           <div className="flex flex-col justify-center gap-8">
             <h1 className="font-bold text-5xl">
