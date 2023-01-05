@@ -8,7 +8,13 @@ const links = [
 
 const Navbar = () => {
   return (
-      <div className="bg-brand text-white flex gap-10 items-center px-4 sm:px-8 md:px-16 py-4 fixed top-0 w-full h-20">
+      <div className={`
+          bg-brand text-white 
+          flex gap-10 items-center 
+          px-4 sm:px-8 md:px-16 py-4 
+          fixed top-0 
+          w-full h-20 z-10
+      `}>
         <a href="/" className="mr-auto">
           <img src={TitledLogo} alt="Crib Homepage" className="h-10" />
         </a>
